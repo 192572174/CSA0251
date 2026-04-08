@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int d, month, days;
+    scanf("%d", &d);
+    month=d/30;
+    days=d%30;
+    printf("Months= %d\n", month);
+    printf("Remaining Days= %d\n", days);
+    return 0;
+}

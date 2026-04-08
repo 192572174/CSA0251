@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int a, sq;
+    scanf("%d", &a);
+    sq=a*a;
+    printf("Square = %d\n", sq);
+    return 0;
+}

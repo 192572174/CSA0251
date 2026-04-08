@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int a,b;
+    scanf("%d", &a);
+    b=18-a;
+    if (a>=18)
+    {
+        printf("Eligible for voting");
+    }
+    else
+        printf("Not eligible for voting, eligible after %d years",b);
+    return 0;
+}

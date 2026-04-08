@@ -3,6 +3,6 @@ int main() {
     float a, b, c, peri;
     scanf("%f %f %f", &a, &b, &c);
     peri= a+b+c;
-    printf("Perimeter= %.2f\n", peri);
+    printf("Perimeter= %.2f", peri);
     return 0;
 }

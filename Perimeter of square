@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    float a, peri;
+    scanf("%f", &a);
+    peri = 4*a;
+    printf("Perimeter= %.2f", peri);
+    return 0;
+}

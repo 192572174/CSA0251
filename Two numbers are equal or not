@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    if(a==b)
+    {
+        printf("Given numbers are aequal");
+    }
+    else
+        printf("Given numbers are not equal");
+    return 0;
+}

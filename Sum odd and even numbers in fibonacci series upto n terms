@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main(){
+    int a=0, b=1, c, s1=0, s2=0,i=0, n;
+    scanf("%d",&n);
+    while(i<n)
+    {
+        if(a%2!=0)
+        {
+            s1=s1+a;
+        }
+        else
+        {
+            s2=s2+a;
+        }
+    c=a+b;
+    a=b;
+    b=c;
+    i++;
+    }
+    printf("Odd sum=%d\n",s1);
+    printf("Even sum=%d\n",s2);
+}

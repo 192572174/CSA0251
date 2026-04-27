@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+   int income;
+   scanf("%d", &income);
+   if(income>250000)
+   {
+       printf("Within taxable range");
+   }
+   else
+   {
+       printf("Out of range");
+   }
+}

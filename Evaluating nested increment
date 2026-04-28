@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main(){
+   int a=4;
+   int b= ++a + a++ + ++a;
+   printf("Value of a: %d\n",a);
+   printf("Value of b: %d\n",b);
+}
